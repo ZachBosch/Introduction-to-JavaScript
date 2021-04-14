@@ -60,13 +60,14 @@ console.log(x);
 Task 1d - Multiply
  
 Do the following:   
-   1. Invoke the multiply function below and pass it two numbers
-   2. Receive the parameters: a and b
-   3. Multiply a and b and return the answer
+   1.  Invoke the multiply function below and pass it two numbers
+   2.  Receive the parameters: a and b
+   3.  Multiply a and b and return the answer
 */
 
 function multiply(num1, num2){
-  console.log(num1*num2);
+  
+  return num1 * num2;
   }
   multiply(4,7);
 
@@ -80,12 +81,14 @@ Do the following:
    3. Return the newly calculated age
 */
 
+// function dogYears(/*add your code here*/){
+//   /*add your code here*/
+// }
+
 function dogYears(age){
   
   return age * 7;
 }
-age = 10;
-
 
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 3 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
@@ -118,7 +121,7 @@ Use the hungryDog function and feeding requirements below to do the following:
 function hungryDog(weight, age){
     if(age >= 1 && weight <=5){
       return weight * 0.05;
-    }else if(age >= 1 && wegith >= 6 && weight <=10){
+    }else if(age >= 1 && weight >= 6 && weight <=10){
       return weight * 0.04;
     }else if( age >=1 && weight >= 11 && weight <= 15){
       return weight * 0.03;
